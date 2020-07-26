@@ -1,6 +1,6 @@
 import React, { useState, FormEvent } from 'react';
 import Contact from '../models/Contact';
-import uuid from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
 
 type Props = {
@@ -24,7 +24,7 @@ const AddContactForm = ({ onAddContact }: Props) => {
         event.preventDefault();
         
         onAddContact({
-            id: uuid(),
+            id: uuidv4(),
             name,
             email,
             phoneNumber
@@ -68,7 +68,7 @@ const AddContactForm = ({ onAddContact }: Props) => {
                     />
                 </div>
             </Card>
-            <button type="submit" >Criar contato</button>
+            <button type="submit" > Incluir novo contato na agenda </button>
         </form>
     );
 };
