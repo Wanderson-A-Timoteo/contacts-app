@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import CONTACTS from '../contacts';
+import Contact from '../models/Contact';
+import ContactItem from '../components/ContactItem';
+import AddContactForm from '../components/AddContactForm';
 
 
 const Wrapper = styled.main`
@@ -41,7 +44,26 @@ const Contacts = () => {
     };
 
     return (
-        
+      <Wrapper>
+        <Card>
+          <header>
+              {isAddindContact &&
+                  <AddContactForm onAddContact={handleAddContent} />}
+              <button onClick={() => setAddingContact(true)}>
+                  Adicionar contato
+              </button>
+          </header>
+          <ContactList>
+              {contacts.map(contact => (
+                  <ContactItem
+                      key={contact.id}
+                      contact={contact}
+                      onRemoveContact={handleRemoveContact}
+                  />
+              ))}
+          </ContactList>
+        </Card>
+      </Wrapper>
     );
 };
 
