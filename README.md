@@ -1,44 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    URL Shortener
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executar aplicação">Executar Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!" />
 
-### `yarn start`
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+</p>
+<br>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Projeto consiste em um **_ Encurtador de URLs _**, desenvolvido durante as aulas da Digital Innovation One.
 
-### `yarn test`
+<br>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias
 
-### `yarn build`
+Esse projeto foi desenvolvido com as seguintes tecnologias: <br>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React.js](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [MongoDB](https://www.mongodb.com)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Executar Aplicação
 
-### `yarn eject`
+### 🔥 Executando Localmente a Aplicação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Caso você deseja executar o projeto na sua máquina local, você precisará instalar o Node.js em sua máquina. Após a instalação, basta seguir os passos abaixo:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🌀 Começando...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para começar, você deve simplesmente clonar o repositório do projeto na sua máquina e instalar as dependências.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### ❗️ Instalando as Dependências (via Windows):
 
-## Learn More
+Abre o cmd (caso esteja utilizando o Windows) navegue até o local onde você clonou o projeto, exemplo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+cd "C:\Users\NomeDoComputador\Documents\clonedoprojeto"
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Depois, quando estiver na pasta do projeto, `url_shortener` digitar no cmd a seguinte instrução: **(dentro da pasta `url_shortener` do projeto clonado)**
+
+```sh
+npm install
+```
+
+Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas e definidas no arquivo package.json:
+
+- `node_modules` - que contêm os packages do npm que precisará para o projeto.
+
+#### 💨 Executando a Aplicação
+
+Bom, agora **(dentro da pasta `url_shortener` do projeto clonado)** abra um terminal para o projeto ser executado e digite:
+
+```sh
+npm run dev
+```
+
+Pronto! dessa forma o `url_shortener` estará rodando localmente em sua maquina.
+<br>
+
+```sh
+http://localhost:3000
+```
+
+<br>
+
+## 🚩 Tenho Dúvidas... O que fazer?
+
+Caso tenham dúvidas sobre o código do projeto, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/Wanderson-A-Timoteo/url-shortener/issues)**. Assim que possível, estarei respondendo as todas as dúvidas que tiverem!
+<br>
+
+## Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+## Autor:
+
+Feito com ♥ by
+
+- **Wanderson A. Timóteo** - [Contatos](https://wanderson.tk)
+
+<br>
+
+## Agradecimentos:
+
+<h1 align="center">
+    <img alt="Digital Innovation One" title="Digital Innovation One" src=".github/dio.jpg" width="350" />
+</h1>
+
+- Projeto desenvolvido durante as aulas na plataforma educacional [Digital Innovation One](https://www.dio.me/).
+
+- Agradecimento a instrutora []() por compartilhar seu conhecimento.
