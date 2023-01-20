@@ -1,5 +1,5 @@
 <h1 align="center">
-    URL Shortener
+    Agenda de Contatos
 </h1>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ## 💻 Projeto
 
-Projeto consiste em um **_ Encurtador de URLs _**, desenvolvido durante as aulas da Digital Innovation One.
+Projeto consiste em uma agenda para armazenar seus contatos, desenvolvido durante as aulas da Digital Innovation One.
 
 <br>
 
@@ -29,7 +29,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias: <br>
 - [React.js](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en/)
-- [MongoDB](https://www.mongodb.com)
 
 <br>
 
@@ -63,13 +62,13 @@ Ao digitar a instrução acima, automaticamente ele irá baixar todas as depend�
 
 #### 💨 Executando a Aplicação
 
-Bom, agora **(dentro da pasta `url_shortener` do projeto clonado)** abra um terminal para o projeto ser executado e digite:
+Bom, agora **(dentro da pasta `contacts-app` do projeto clonado)** abra um terminal para o projeto ser executado e digite:
 
 ```sh
 npm run dev
 ```
 
-Pronto! dessa forma o `url_shortener` estará rodando localmente em sua maquina.
+Pronto! dessa forma o `contacts-app` estará rodando localmente em sua maquina.
 <br>
 
 ```sh
@@ -80,7 +79,7 @@ http://localhost:3000
 
 ## 🚩 Tenho Dúvidas... O que fazer?
 
-Caso tenham dúvidas sobre o código do projeto, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/Wanderson-A-Timoteo/url-shortener/issues)**. Assim que possível, estarei respondendo as todas as dúvidas que tiverem!
+Caso tenham dúvidas sobre o código do projeto, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/Wanderson-A-Timoteo/contacts-app/issues)**. Assim que possível, estarei respondendo as todas as dúvidas que tiverem!
 <br>
 
 ## Licença
@@ -91,16 +90,14 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 Feito com ♥ by
 
-- **Wanderson A. Timóteo** - [Contatos](https://wanderson.tk)
+- **Wanderson A. Timóteo** - [Contatos](www.wandersontimoteo.ga)
 
 <br>
 
 ## Agradecimentos:
 
 <h1 align="center">
-    <img alt="Digital Innovation One" title="Digital Innovation One" src=".github/dio.jpg" width="350" />
+    <img alt="Digital Innovation One" title="Digital Innovation One" src="github/dio.jpg" width="350" />
 </h1>
 
 - Projeto desenvolvido durante as aulas na plataforma educacional [Digital Innovation One](https://www.dio.me/).
-
-- Agradecimento a instrutora []() por compartilhar seu conhecimento.
