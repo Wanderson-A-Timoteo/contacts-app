@@ -50,7 +50,7 @@ Abre o cmd (caso esteja utilizando o Windows) navegue até o local onde você cl
 cd "C:\Users\NomeDoComputador\Documents\clonedoprojeto"
 ```
 
-Depois, quando estiver na pasta do projeto, `url_shortener` digitar no cmd a seguinte instrução: **(dentro da pasta `url_shortener` do projeto clonado)**
+Depois, quando estiver na pasta do projeto, `contacts-app` digitar no cmd a seguinte instrução: **(dentro da pasta `contacts-app` do projeto clonado)**
 
 ```sh
 npm install
