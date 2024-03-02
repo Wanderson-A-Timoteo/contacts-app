@@ -90,7 +90,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 Feito com ♥ by
 
-- **Wanderson A. Timóteo** - [Contatos](www.wandersontimoteo.ga)
+- **Wanderson A. Timóteo** - [Contatos](www.wandersontimoteo.com.br)
 
 <br>
 
